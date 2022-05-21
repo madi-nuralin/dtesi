@@ -1,0 +1,30 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page27324061.html
+
+RewriteEngine On
+
+RewriteRule ^importantdateshtml$ page27696767.html [NC]
+RewriteRule ^importantdateshtml/$ page27696767.html [NC]
+
+RewriteRule ^papersubmission$ page27697314.html [NC]
+RewriteRule ^papersubmission/$ page27697314.html [NC]
+
+RewriteRule ^conferencefee$ page27697553.html [NC]
+RewriteRule ^conferencefee/$ page27697553.html [NC]
+
+RewriteRule ^programcommittee$ page27697812.html [NC]
+RewriteRule ^programcommittee/$ page27697812.html [NC]
+
+RewriteRule ^conferenceprogram$ page27697867.html [NC]
+RewriteRule ^conferenceprogram/$ page27697867.html [NC]
+
+RewriteRule ^venue$ page27697901.html [NC]
+RewriteRule ^venue/$ page27697901.html [NC]
+
+RewriteRule ^archive$ page27697940.html [NC]
+RewriteRule ^archive/$ page27697940.html [NC]
+
+RewriteRule ^favicon.ico$ https://static.tildacdn.com/img/tildafavicon.ico [R=302,L]
+
